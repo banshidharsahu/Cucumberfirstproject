@@ -81,8 +81,12 @@ public class Loginstepdefinehook
 	}
 
 	@After
-	public void close() {
+	public void close()
+
+	{
+
 		driver.close();
+
 	}
 
 }

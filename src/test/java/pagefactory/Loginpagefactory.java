@@ -36,12 +36,16 @@ public class Loginpagefactory {
 
 	}
 
-	public void password(String userpass) {
+	public void password(String userpass)
+
+	{
 		txt_pass.sendKeys(userpass);
 
 	}
 
-	public void login() {
+	public void login()
+
+	{
 		btn_submit.click();
 
 	}
